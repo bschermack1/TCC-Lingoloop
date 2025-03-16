@@ -1,0 +1,51 @@
+.sectionLogin {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 174, 219);
+}
+
+@media (max-width: 800px) {
+    .sectionLogin {
+        height: 101vh;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formatacao {
+    background-color: #75619d;
+    width: 400px;
+    height: 180px;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.tittle {
+    font-family: 'Chloe';
+    font-weight: 600;
+    color: #75619d;
+}
+
+.email {
+    padding-bottom: 10px;
+}
+
+.senha {
+    padding-bottom: 10px;
+}
+
+.entrar {
+    padding-bottom: 20px;
+}
+
+.redirecionamento {
+    padding-top: 1%;
+}
